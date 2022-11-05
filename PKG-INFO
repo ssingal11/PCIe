@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: pyPCIe
+Version: 0.1.0
+Summary: Simple Python module to access PCIe devices
+Home-page: https://github.com/heikoengel/pyPCIe
+Author: Shivam Singal
+Author-email: <ssingal@nvidia.com>
+License: UNKNOWN
+Keywords: python,pcie
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: NVIDIA License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # pyPCIe: Simple Python Module to access PCIe Endpoint BARs
 
 PyCIe provides a quick way to read/write registers in PCIe Base
@@ -26,3 +43,5 @@ bar.write(0x1000, 0xdeadbeef)
 # read BAR 0, offset 0x1004
 ret = bar.read(0x1004)
 ```
+
+
